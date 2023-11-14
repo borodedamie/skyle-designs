@@ -2,7 +2,7 @@ import React from 'react';
 import { more } from '../assets/utils/data';
 const More = () => {
   return (
-    <div className='bg-[black] relative'>
+    <div className='bg-[#0C0C0C] relative'>
     <div className='border-[0.5px] z-[10] relative  h-[420px]  flex flex-col items-center justify-center bg-transparent mx-auto  text-[white] border-[white] bg-none rounded-[41px] '>
         <p className='text-[#FFFFFF] text-[40px] leading-[42.4px] font-[700] font-AtypDisplay'>Apps, Websites, Logos & More.</p>
       <div className="text-left justify-center flex" >

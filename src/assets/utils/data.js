@@ -2,66 +2,94 @@ import butera from "../butera.svg";
 import chy from "../chy.svg";
 import carrentals from "../carrentals.svg";
 import majesticfx from "../majesticfx.svg";
-import cue from '../cue.svg'
-import press from '../press.svg'
-import happy from '../happy.svg'
-import fimid from '../fimid.svg'
+import cue from "../cue.svg";
+import press from "../press.svg";
+import happy from "../happy.svg";
+import fimid from "../fimid.svg";
 import astravest from "../astravest.svg";
 import louie from "../louie.svg";
 import ferrahub from "../ferrahub.svg";
 import peexo from "../peexo.svg";
-export const data = [
+import vision from '../vision.svg'
+import wikie from '../wikie.svg'
+import sync from '../sync.svg'
+import toyota from '../toyota.svg'
+import jem from '../jem.svg'
+import rj from '../rj.svg'
+import perception from '../perception.svg'
+import daron from '../daron.svg'
+import optimal from '../optimal.svg'
+export const svgCodes = [
   {
-    design: butera,
+    designs: butera,
   },
   {
-    design: carrentals,
+    designs: carrentals,
   },
   {
-    design: chy,
+    designs: chy,
   },
   {
-    design: majesticfx,
+    designs: majesticfx,
+  }
+];
+
+
+export const brands = [
+  {
+    brandname: vision,
+  },
+  {
+    brandname: wikie,
+  },
+  {
+    brandname: rj,
+  },
+  {
+    brandname: toyota,
+  },
+  {
+    brandname: perception,
+  },
+  {
+    brandname: jem,
+  },
+  {
+    brandname: daron,
+  },
+  {
+    brandname: sync,
+  },
+  {
+    brandname: astravest,
+  },
+  {
+    brandname: ferrahub,
+  },
+  {
+    brandname: optimal,
+  },
+  {
+    brandname: peexo,
+  },
+ 
+];
+
+export const carousel = [
+  {
+    carousel1: cue,
+  },
+  {
+    carousel1: press,
+  },
+  {
+    carousel1: happy,
+  },
+  {
+    carousel1: fimid,
   },
 ];
 
-export const brands = [
-    {
-      brandname: astravest,
-    },
-    {
-        brandname: ferrahub,
-    },
-    {
-        brandname: louie,
-    },
-    {
-        brandname: peexo,
-    },
-    {
-        brandname: astravest,
-    },
-  ];
-
-
-export const carousel = [
-    
-    {
-        carousel1: cue,
-    },
-    {
-        carousel1: press,
-    },
-    {
-        carousel1: happy,
-    },
-    {
-        carousel1: fimid,
-    },
-   
-  ];
-
-  
 export const whatwedo = [
   {
     header: "User Interface Design",

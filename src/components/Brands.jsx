@@ -1,17 +1,18 @@
 import React from "react";
 import { brands } from "../assets/utils/data";
+import { ReactSVG } from "react-svg";
 
 const Brands = () => {
   return (
-    <div className="flex bg-[black] flex-col items-center justify-center pt-[10rem] gap-[5rem]">
+    <div className="flex bg-[#0C0C0C] flex-col items-center justify-center pt-[10rem] gap-[5rem]">
       <h2 className="text-[40px] text-center font-AtypDisplay capitalize font-[500] leading-[41.8px] text-[white]">
         Brands that love what we do
       </h2>
-      <div className="flex flex-row lg:gap-[3vw] xl:gap-[5vw]">
+      <div className="grid grid-cols-4 place-items-center mx-auto justify-center w-[80%] gap-y-10">
         {brands.map((brands1, b) => {
           return (
             <div key={b}>
-              <img src={brands1.brandname} alt="" />
+              <ReactSVG src={brands1.brandname} />
             </div>
           );
         })}
