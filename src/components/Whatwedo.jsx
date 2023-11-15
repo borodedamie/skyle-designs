@@ -6,7 +6,7 @@ const Whatwedo = () => {
   return (
     <div className="bg-[#0C0C0C] px-[80px]  flex flex-row justify-between items-start py-[8rem] gap-[20vw] max-w-[100%] w-[100%]">
       <div className="flex flex-col justify-between gap-y-[7vw] items-start max-w-[33%]"> 
-        <div className="border-b border-[#595959] pb-[1rem]">
+        <div className="border-b border-[#595959] pb-[2rem]">
           <h2 className="pb-[20px] font-[700] font-AtypDisplay text-[40px] leading-[38.6px] text-[white]">
             What We Do
           </h2>
