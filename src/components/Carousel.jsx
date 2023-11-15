@@ -23,11 +23,11 @@ const Carousel = () => {
   return (
     // <div className="glide" style={{ backgroundColor: '#0C0C0C' }}>
     // <div className="glide__track" data-glide-el="track">
-      <div className="flex flex-row bg-[#0C0C0C] items-center">
+      <div className="flex flex-row bg-[#0C0C0C] justify-center">
         {carousel.map((carouself, index) => {
           return (
             <div className="" key={index}>
-                <img className="w-full h-[40rem]" src={carouself.carousel1}
+                <img className=" h-[45rem]" src={carouself.carousel1}
                 />
             </div>
           );
