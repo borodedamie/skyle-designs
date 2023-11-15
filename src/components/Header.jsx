@@ -1,11 +1,13 @@
 import React from "react";
 import linetop from "../assets/linetop.svg";
 import { ReactSVG } from "react-svg";
+import Nav from "./Nav";
 
 const Header = () => {
   return (
-    <div className="bg-[#0C0C0C] relative px-[80px] pt-[10rem] pb-[6rem]">
-      <h2 className="uppercase font-AtypDisplay relative z-10 text-[70px] xl:text-[120px] leading-[100.2px] xl:leading-[124.2px] font-[700] text-[white]">
+    <div className="bg-[#0C0C0C] relative px-[80px] pb-[6rem]">
+      <Nav />
+      <h2 className="uppercase relative font-AtypDisplay z-[10] mt-[12rem] text-[70px] xl:text-[120px] leading-[100.2px] xl:leading-[124.2px] font-[700] text-[white]">
         from a <br /> creative point
       </h2>
       <div className="flex flex-row max-w-[100%] w-[100%] justify-between items-center py-[2rem]">
@@ -16,10 +18,10 @@ const Header = () => {
         </h2>
 
         <svg
-          className="absolute top-0 w-full right-0 z-[1] pb-[10rem] pr-[15rem]"
-          width="1124"
-          height="491"
-          viewBox="0 0 1124 491"
+          className="absolute flex self-stretch w-[100vw] top-0 right-0 z-[1] pb-[10rem] pl-[30rem]"
+          width="1658.13px"
+          height="807px"
+          viewBox="0 0 1658.13px 807px"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -159,10 +161,10 @@ const Header = () => {
           </g>
         </svg>
         <div className="flex  flex-row gap-5  z-10 ">
-          <button className="border-2 font-Inter text-[black] border-[white] bg-[white] rounded-[15px] h-[54px] w-[145px] text-center flex items-center justify-center leading-[19.36px] font-[400] text-[16px]">
+          <button className="border-2 font-Inter text-[black]  hover:text-[white]  hover:bg-transparent border-[white] bg-[white] rounded-[15px] h-[54px] w-[145px] text-center flex items-center justify-center leading-[19.36px] font-[400] text-[16px]">
             Start a project
           </button>
-          <button className="border-2 font-Inter text-[white] border-[white] bg-none rounded-[15px] h-[54px] w-[145px] text-center flex items-center justify-center leading-[19.36px] font-[400] text-[16px]">
+          <button className="border-2 font-Inter text-[white] border-[white] bg-none hover:text-[black]  hover:bg-[white] rounded-[15px] h-[54px] w-[145px] text-center flex items-center justify-center leading-[19.36px] font-[400] text-[16px]">
             See plans
           </button>
         </div>

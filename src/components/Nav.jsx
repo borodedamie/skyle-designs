@@ -11,7 +11,7 @@ const Nav = () => {
     setShowNavbar(!showNavbar);
   };
   return (
-    <nav className="bg-[#0C0C0C] relative z-[10] pt-[2rem]  flex flex-row justify-between px-[80px] items-center">
+    <nav className="bg-none relative z-[10] pt-[2rem]  flex flex-row justify-between items-center">
       <NavLink to="/">
         <svg
           width="108"
@@ -88,7 +88,7 @@ const Nav = () => {
       </NavLink>
 
       {showNavbar ? (
-        <div className="flex flex-col bg-[#282828] h-[243px] w-[249px] absolute right-[80px] top-5 pl-[2rem] pt-[1rem]">
+        <div className="flex flex-col bg-[#282828] h-[243px] w-[249px] absolute right-[-2rem] top-5 pl-[2rem] pt-[1rem]">
           <svg
             className="absolute right-5 top-5 cursor-pointer"
             onClick={toggleNavbar}

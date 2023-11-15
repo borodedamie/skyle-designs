@@ -6,7 +6,6 @@ import facebook from "../assets/facebook.svg";
 import twitter from "../assets/twitter.svg";
 import instagram from "../assets/instagram.svg";
 import { ReactSVG } from "react-svg";
-import arrow from "../assets/arrow.svg";
 const Footer = () => {
   return (
     <div className="bg-[#0C0C0C] px-[80px] pt-[3rem] py-[5rem] flex flex-row items-end justify-between">

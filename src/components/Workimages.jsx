@@ -8,10 +8,10 @@ const Workimages = () => {
   return (
     <div className="bg-[#0C0C0C] pb-[10rem] px-[80px] relative ">
       <svg
-        className="absolute w-[100%] bottom-[45rem] right-0 z-[1]"
-        width="1900"
-        height="809"
-        viewBox="0 0 1900 809"
+        className="absolute flex self-stretch w-[100vw] bottom-[45rem] right-0 z-[1]"
+        width="1658.13px"
+        height="807px"
+        viewBox="0 0 1658.13px 807px"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
