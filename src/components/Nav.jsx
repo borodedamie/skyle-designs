@@ -1,17 +1,14 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../assets/logo.svg";
-import { ReactSVG } from "react-svg";
-import close from "../assets/close.svg";
-import hamburger from "../assets/hamburger.svg";
 const Nav = () => {
   const [showNavbar, setShowNavbar] = useState(false);
+
 
   const toggleNavbar = () => {
     setShowNavbar(!showNavbar);
   };
   return (
-    <nav className="bg-none relative z-[10] pt-[2rem]  flex flex-row justify-between items-center">
+    <nav className="bg-none relative mx-auto z-[10] pt-[2rem] px-[20px] lg:px-[80px]   flex flex-row justify-between items-center">
       <NavLink to="/">
         <svg
           width="108"
@@ -19,6 +16,7 @@ const Nav = () => {
           viewBox="0 0 108 32"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
+          className="w-fit"
         >
           <path
             d="M57.0448 4.22443H58.5273H61.1016V15.7325L66.2412 9.79691H72.9633L76.3931 21.3724L79.3795 10.7014L77.645 9.72085H79.6539H81.1234H84.042L78.6244 25.2555C77.5803 28.2481 76.7546 30.1085 76.1457 30.8315C75.5376 31.5486 74.3151 31.9093 72.4897 31.9093C72.1239 31.9093 71.8318 31.9093 71.6095 31.9042C71.3872 31.8991 71.0504 31.8803 70.6097 31.8501V28.5453L71.1292 28.5751C71.535 28.5951 71.9208 28.5802 72.2874 28.5304C72.6583 28.4857 72.9652 28.372 73.2173 28.1995C73.4596 28.036 73.682 27.689 73.8897 27.1699C74.0979 26.6504 74.1818 26.3293 74.1426 26.2156L69.2041 12.154L65.8409 15.8364L71.5797 25.5181H66.598L62.8134 18.7647L61.1016 20.5463V25.5181H57.0448V5.35358L55.0488 4.22521H57.0448V4.22443Z"
@@ -88,9 +86,9 @@ const Nav = () => {
       </NavLink>
 
       {showNavbar ? (
-        <div className="flex flex-col bg-[#282828] h-[243px] w-[249px] absolute right-[-2rem] top-5 pl-[2rem] pt-[1rem]">
+        <div className="flex flex-col bg-[#282828] h-[243px] w-[249px] absolute right-[2rem] top-5 pl-[2rem] pt-[1rem]">
           <svg
-            className="absolute right-5 top-5 cursor-pointer"
+            className="absolute w-fit right-5 top-5 cursor-pointer"
             onClick={toggleNavbar}
             width="10"
             height="8"
@@ -107,19 +105,22 @@ const Nav = () => {
           <NavLink
             className="text-[white] py-[1rem] font-[400] text-[18px] leading-[21.78px]"
             to="/"
+            onClick={toggleNavbar}
           >
             {" "}
             Home
           </NavLink>
           <NavLink
             className="text-[white] py-[1rem]  font-[400] text-[18px] leading-[21.78px]"
-            to="/portfolio"
+            to="/works"
+            onClick={toggleNavbar}
           >
             Portfolio
           </NavLink>
           <NavLink
             className="text-[white] py-[1rem]  font-[400] text-[18px] leading-[21.78px]"
             to="/contact"
+             onClick={toggleNavbar}
           >
             {" "}
             Contact

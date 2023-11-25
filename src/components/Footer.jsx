@@ -1,29 +1,24 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../assets/logo.svg";
-import linkedin from "../assets/linkedin.svg";
-import facebook from "../assets/facebook.svg";
-import twitter from "../assets/twitter.svg";
-import instagram from "../assets/instagram.svg";
-import { ReactSVG } from "react-svg";
 const Footer = () => {
   return (
-    <div className="bg-[#0C0C0C] px-[80px] pt-[3rem] py-[5rem] flex flex-row items-end justify-between">
+    <div className="bg-[#0C0C0C] px-[20px] lg:px-[80px] pt-[3rem] py-[5rem] flex flex-col md:flex-row items-start md:items-end justify-between">
       <div>
         <NavLink>
-          <img className="py-[1rem] w-[88px]" src={logo} alt="Skyle-logo" />
+          <img className="pt-[3rem] md:py-[1rem]" src={logo} alt="Skyle-logo" />
         </NavLink>
         <div className="text-[white]">
-          <p className="text-[16px] pb-1 font-Helvetica leading-[18.4px] font-[400]">
+          <p className="text-[16px] py-[1rem] md:py-1 font-Helvetica leading-[18.4px] font-[400]">
             +234 808 152 1302
           </p>
-          <p className="text-[16px] font-Helvetica leading-[18.4px] font-[400]">
+          <p className="text-[16px] py-[.3rem] md:py-1 font-Helvetica leading-[18.4px] font-[400]">
             info@skyledesignsstudios.com
           </p>
         </div>
       </div>
 
-      <div className="flex flex-row gap-[1rem] justify-center items-center">
+      <div className="flex flex-row pt-[3rem] md:pt-0 mx-auto md:mx-0 gap-[4rem] md:gap-[1rem] justify-center items-center">
         <svg
           width="18"
           height="16"
@@ -92,11 +87,11 @@ const Footer = () => {
           />
         </svg>
       </div>
-      <div>
+      <div className="order-first md:order-last">
         <h2 className="text-[white] font-[700] leading-[22px] text-[20px] pb-[15px] font-Helvetica">
           Subscribe to our newsletter
         </h2>
-        <form className="flex gap-[10px] items-center">
+        <form className="flex w-[335px] lg:w-full gap-[10px] items-center">
           <input
             className="h-[43px] placeholder:text-[#D1D1D1] w-[356px] bg-[white] pl-[10px] font-Poppins font-[400]"
             type="email"
