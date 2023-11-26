@@ -87,7 +87,7 @@ const Nav = () => {
       {showNavbar ? (
         <div className="flex flex-col bg-[#282828] h-[243px] w-[249px] absolute right-[2rem] top-5 pl-[2rem] pt-[1rem]">
           <svg
-            className="absolute w-fit right-5 top-5 cursor-pointer"
+            className="absolute w-fit right-0 md:right-5 top-5 cursor-pointer"
             onClick={toggleNavbar}
             width="10"
             height="8"
