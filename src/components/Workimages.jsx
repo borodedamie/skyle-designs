@@ -44,7 +44,7 @@ const Workimages = () => {
               <Link key={p} to={`/works/${svgCode.pathname}`}>
                 <img
                   
-                  className="w-[100rem] h-fit cursor-pointer"
+                  className=" cursor-pointer"
                   src={svgCode.designs}
                 />
               </Link>
