@@ -539,6 +539,13 @@ export const carousel = [
   },
 ];
 
+// export const svgData = {
+//   vision: `<svg width="..." height="..." xmlns="..."> ... </svg>`,
+//   wikie: `<svg width="..." height="..." xmlns="..."> ... </svg>`,
+//   rj: `<svg width="..." height="..." xmlns="..."> ... </svg>`,
+//   // ... other SVG strings
+// };
+
 export const whatwedo = [
   {
     header: "User Interface Design",

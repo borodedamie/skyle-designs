@@ -38,6 +38,7 @@ const Carousel = () => {
               return (
                 <div className="glide__slide " >
                   <div className="h-fit md:h-[45rem] flex items-center justify-center">
+                  
                   <img
                   key={index}
                   className=""

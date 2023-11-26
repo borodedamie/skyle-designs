@@ -8,7 +8,7 @@ const Nav = () => {
     setShowNavbar(!showNavbar);
   };
   return (
-    <nav className="bg-none relative mx-auto z-[10] pt-[2rem] px-[20px] lg:px-[80px]   flex flex-row justify-between items-center">
+    <nav className="bg-none relative z-[10] pt-[2rem] px-[20px] lg:px-[80px] flex flex-row justify-between items-center">
       <NavLink to="/">
         <svg
           width="108"
