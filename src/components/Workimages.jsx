@@ -31,7 +31,7 @@ const Workimages = () => {
             Award winning designs, and nothing less.
           </p>
         </div>
-        <NavLink to="/works">
+        <NavLink to="/portfolio">
           <div className="hidden md:flex">
             <Button title="view more works" />
           </div>
