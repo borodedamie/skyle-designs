@@ -96,7 +96,6 @@ import dfirst from "../dfirst.svg";
 import dsecond from "../dsecond.svg";
 import dthird from "../dthird.svg";
 import cuefirst from "../cuefirst.svg";
-// import cuesecond from '../cuesecond.svg'
 import cuethird from "../cuethird.svg";
 import bellafirst from "../bellafirst.svg";
 import bellasecond from "../bellasecond.svg";
