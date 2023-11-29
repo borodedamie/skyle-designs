@@ -18,9 +18,9 @@
   src: url("/fonts/Helvetica/Helvetica-Bold.ttf") format("truetype");
 }
 
-/* * {
+* {
   max-width: calc(100%-17px);
   margin: 0;
   box-sizing: border-box;
 }
- */
+
