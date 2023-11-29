@@ -111,7 +111,7 @@ const Nav = () => {
           </NavLink>
           <NavLink
             className="text-[white] py-[1rem]  font-[400] text-[18px] leading-[21.78px]"
-            to="/works"
+            to="/portfolio"
             onClick={toggleNavbar}
           >
             Portfolio
