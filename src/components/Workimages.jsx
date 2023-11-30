@@ -16,11 +16,10 @@ const Workimages = () => {
         className="hidden md:flex absolute w-[100vw] bottom-[40rem] md:bottom-[35rem] right-0 z-[1]"
         src={linebottom}
       />
-       <img
+      <img
         className="flex md:hidden absolute max-h-full w-[100vw] self-stretch bottom-[3rem] left-0 z-[1]"
         src={linebottom2}
       />
-
 
       <div className="flex z-[10]  relative flex-col md:flex-row justify-between items-start md:items-center py-[3rem] md:py-[5rem] ">
         <div>
@@ -42,11 +41,7 @@ const Workimages = () => {
           {svgCodes.map((svgCode, p) => {
             return (
               <Link key={p} to={`/works/${svgCode.pathname}`}>
-                <img
-                  
-                  className=" cursor-pointer"
-                  src={svgCode.designs}
-                />
+                <img className=" cursor-pointer" src={svgCode.designs} />
               </Link>
             );
           })}
