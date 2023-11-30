@@ -43,7 +43,7 @@ const More = () => {
         </div>
         ) : (
           <div className="text-left justify-center flex">
-            <div className="grid grid-cols-2 place-items-start md:place-content-start md:grid-cols-5 text-left px-[1rem] md:px-[3rem] py-[5rem] md:py-[4rem] gap-x-[4rem] xl:gap-x-[10rem] gap-y-10 justify-center leading-[16.96px] font-[400] text-[16px]">
+            <div className="grid grid-cols-2 place-items-start md:place-content-start md:grid-cols-5 text-left px-[1rem] md:px-[3rem] py-[4rem] gap-x-[7rem] gap-y-10 justify-center leading-[16.96px] font-[400] text-[16px]">
               {more.map((moretexts, m) => {
                 return (
                   <div

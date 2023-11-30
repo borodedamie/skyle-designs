@@ -91,7 +91,7 @@ const Brands = () => {
             </div>
           </div>
         ) : (
-          <div className="grid grid-cols-4 place-items-center mx-auto justify-center w-[80%] gap-y-10 md:gap-x-[10rem] lg:gap-x-[3rem]">
+          <div className="grid grid-cols-4 place-items-center mx-auto justify-center w-[100%] gap-x-[10rem] gap-y-[3rem]">
             {brands.map((brands1, b) => {
               return (
                 <div key={b}>
