@@ -36,7 +36,7 @@ const Contacthero2 = () => {
           <Button title="Contact us" />
         </NavLink>
 
-        <NavLink to="/works">
+        <NavLink to="/portfolio">
           <Button title="Back to works" />
         </NavLink>
       </div>

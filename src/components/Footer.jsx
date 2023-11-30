@@ -93,7 +93,7 @@ const Footer = () => {
         </h2>
         <form className="flex w-[335px] lg:w-full gap-[10px] items-center">
           <input
-            className="h-[43px] placeholder:text-[#D1D1D1] w-[356px] bg-[white] pl-[10px] font-Poppins font-[400]"
+            className="h-[43px] text-[16px] placeholder:text-[#D1D1D1] w-[356px] bg-[white] pl-[10px] font-[Poppins] font-[400]"
             type="email"
             placeholder="kevindurant@gmail.com"
           />

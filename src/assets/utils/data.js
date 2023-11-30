@@ -7,10 +7,9 @@ import press from "../press.svg";
 import happy from "../happy.svg";
 import fimid from "../fimid.svg";
 import astravest from "../astravest.svg";
-import louie from "../louie.svg";
 import ferrahub from "../ferrahub.svg";
 import peexo from "../peexo.svg";
-import dentalwhite from '../dentalwhite.svg'
+import dentalwhite from "../dentalwhite.svg";
 import vision from "../vision.svg";
 import wikie from "../wikie.svg";
 import sync from "../sync.svg";
@@ -20,10 +19,10 @@ import rj from "../rj.svg";
 import perception from "../perception.svg";
 import daron from "../daron.svg";
 import optimal from "../optimal.svg";
-import chiroI from "../chiro.svg";
+import chiro from "../chiro.svg";
 import majestictm from "../majestictm.svg";
 import nairobi from "../nairobi.svg";
-import gym from "../360gym.svg";
+import gym from "../gym.svg";
 import health100 from "../heath100.svg";
 import sparkle from "../sparkle.svg";
 import loki from "../loki.svg";
@@ -39,7 +38,7 @@ import lokilogo from "../lokilogo.svg";
 import buteralogo from "../buteralogo.svg";
 import carrentalslogo from "../carrentasllogo.svg";
 import dentallogo from "../dentallogo.svg";
-import gymlogo from "../360gymlogo.svg";
+import gymlogo from "../gymlogo.svg";
 import healthlogo from "../healthlogo.svg";
 import enstorelogo from "../enstorelogo.svg";
 import cueballlogo from "../cueballlogo.svg";
@@ -47,61 +46,140 @@ import capsule from "../capsule.svg";
 import book from "../book.svg";
 import doctorc from "../doctorc.svg";
 import bag from "../bag.svg";
-import med from '../med.svg'
-import laptop from '../laptop.svg'
-import shape from '../shape.svg'
-import brand from '../brand.svg'
-import letter from '../letter.svg'
-import street from '../street.svg'
-import majesticlarge from '../majesticlarge.svg'
-import majesticdark from '../majesticdark.svg'
-import majesticzz from '../majesticzz.svg'
-import card from '../card.svg'
-import phone from '../phone.svg'
-import cup from '../cup.svg'
-import trend from '../trend.svg'
-import mletter from '../mletter.svg'
-import house from '../house.svg'
-import hfirst from '../hfirst.svg'
-import hpriority from '../hpriority.svg'
-import habout from '../habout.svg'
-import hyour from '../hyour.svg'
-import hlaptop from '../hlaptop.svg'
-import nfirst from '../nfirst.svg'
-import nsecond from '../nsecond.svg'
-import nthird from '../nthird.svg'
-import nfour from '../nfour.svg'
-import nlaptop from '../nlaptop.svg'
-import gfirst from '../gfirst.svg'
-import gsecond from '../gsecond.svg'
-import gthird from '../gthird.svg'
-import gfour from '../gfour.svg'
-import gfive from '../gfive.svg'
-import gsix from '../gsix.svg'
-import sfirst from '../sfirst.svg'
-import ssecond from '../ssecond.svg'
-import sthird from '../sthird.svg'
-import sfour from '../sfour.svg'
-import sfive from '../sfive.svg'
-import lfirst from '../lfirst.svg'
-import lsecond from '../lsecond.svg'
-import lthird from '../lthird.svg'
-import lfour from '../lfour.svg'
-import lfive from '../lfive.svg'
-import carrfirst from '../carrfirst.svg'
-import carrthird from '../carrthird.svg'
-import bsecond from '../bsecond.svg'
-import bfour from '../bfour.svg'
-import bthird from '../bthird.svg'
-import dfirst from '../dfirst.svg'
-import dsecond from '../dsecond.svg'
-import dthird from '../dthird.svg'
-import cuefirst from '../cuefirst.svg'
-// import cuesecond from '../cuesecond.svg'
-import cuethird from '../cuethird.svg'
-import bellafirst from '../bellafirst.svg'
-import bellasecond from '../bellasecond.svg'
-
+import med from "../med.svg";
+import laptop from "../laptop.svg";
+import shape from "../shape.svg";
+import brand from "../brand.svg";
+import letter from "../letter.svg";
+import street from "../street.svg";
+import majesticlarge from "../majesticlarge.svg";
+import majesticdark from "../majesticdark.svg";
+import majesticzz from "../majesticzz.svg";
+import card from "../card.svg";
+import phone from "../phone.svg";
+import cup from "../cup.svg";
+import trend from "../trend.svg";
+import mletter from "../mletter.svg";
+import house from "../house.svg";
+import hfirst from "../hfirst.svg";
+import hpriority from "../hpriority.svg";
+import habout from "../habout.svg";
+import hyour from "../hyour.svg";
+import hlaptop from "../hlaptop.svg";
+import nfirst from "../nfirst.svg";
+import nsecond from "../nsecond.svg";
+import nthird from "../nthird.svg";
+import nfour from "../nfour.svg";
+import nlaptop from "../nlaptop.svg";
+import gfirst from "../gfirst.svg";
+import gsecond from "../gsecond.svg";
+import gthird from "../gthird.svg";
+import gfour from "../gfour.svg";
+import gfive from "../gfive.svg";
+import gsix from "../gsix.svg";
+import sfirst from "../sfirst.svg";
+import ssecond from "../ssecond.svg";
+import sthird from "../sthird.svg";
+import sfour from "../sfour.svg";
+import sfive from "../sfive.svg";
+import lfirst from "../lfirst.svg";
+import lsecond from "../lsecond.svg";
+import lthird from "../lthird.svg";
+import lfour from "../lfour.svg";
+import lfive from "../lfive.svg";
+import carrfirst from "../carrfirst.svg";
+import carrthird from "../carrthird.svg";
+import bsecond from "../bsecond.svg";
+import bfour from "../bfour.svg";
+import bthird from "../bthird.svg";
+import dfirst from "../dfirst.svg";
+import dsecond from "../dsecond.svg";
+import dthird from "../dthird.svg";
+import cuefirst from "../cuefirst.svg";
+import cuethird from "../cuethird.svg";
+import bellafirst from "../bellafirst.svg";
+import bellasecond from "../bellasecond.svg";
+import mchiro from "../mchiro.svg";
+import mcapsule from "../mcapsule.svg";
+import menv from "../menv.svg";
+import mthumb from "../mthumb.svg";
+import mmed from "../mmed.svg";
+import mbag from "../mbag.svg";
+import mcircle from "../mcircle.svg";
+import mround from "../mround.svg";
+import mpurple from "../mpurple.svg";
+import mletter1 from "../mletter.svg";
+import crchiro from "../crchiro.svg";
+import mflag from "../mflag.svg";
+import mpost from "../mpost.svg";
+import mmajestic from '../mmajestic.svg'
+import msleek from '../msleek.svg'
+import mdouble from '../mdouble.svg'
+import myellow from '../myellow.svg'
+import mtripple from '../mtripple.svg'
+import mphone from '../mphone.svg'
+import menvelope from '../menvelope.svg'
+import mcard from '../mcard.svg'
+import mtee from '../mtee.svg'
+import mjacket from '../mjacket.svg'
+import mcup from '../mcup.svg'
+import mfolder from '../mfolder.svg'
+import mforex from '../mforex.svg'
+import myyellow from '../myyelow.svg'
+import mdark from '../mdark.svg'
+import mnurse from '../mnurse.svg'
+import mhealth from '../mhealth.svg'
+import mslant from '../mslant.svg'
+import mhlong from '../mhlong.svg'
+import mhdesktop from '../mhdesktop.svg'
+import mnnairobi from '../mnnairobi.svg'
+import mnslant from '../mnslant.svg'
+import mnlong from '../mnlong.svg'
+import mnleft from '../mnleft.svg'
+import mnlaptop from '../mnlaptop.svg'
+import mggym from '../mggym.svg'
+import mgtriple from '../mgtriple.svg'
+import mgthird from '../mgthird.svg'
+import mglong from '../mglong.svg'
+import mgfour from '../mgfour.svg'
+import mglaptop from '../mglaptop.svg'
+import msparkle from '../msparkle.svg'
+import msparkle3 from '../msparkle3.svg'
+import msparkle2 from '../msparkle2.svg'
+import mslong from '../mslong.svg'
+import mslaptop from '../mslaptop.svg'
+import mloki from '../mloki.svg'
+import mloki2 from '../mloki2.svg'
+import mloki3 from '../mloki3.svg'
+import mllong from '../mllong.svg'
+import mbbutera from '../mbbutera.svg'
+import mllaptop from '../mllaptop.svg'
+import mbutera1 from '../mbutera1.svg'
+import mbuteralong from '../mbuteralong.svg'
+import mblaptop from '../mblaptop.svg'
+import mbuterafirst from '../mbuterafirst.svg'
+import mcarfirst from '../mcarfirst.svg'
+import mcarsecond from '../mcarsecond.svg'
+import mcthird from '../mcthird.svg'
+import mdfirst from '../mdfirst.svg'
+import mdsecond from '../mdsecond.svg'
+import mdlast from '../mdlast.svg'
+import mcfirst from '../mcfirst.svg'
+import mcsecond from '../mcsecond.svg'
+import mcthree from '../mcthree.svg'
+import mclast from '../mclast.svg'
+import mifirst from '../mifirst.svg'
+import misecond from '../misecond.svg'
+import mithree from '../mithree.svg'
+import milast from '../mifour.svg'
+import mpsecond from '../mpsecond.svg'
+import mpfirst from '../mpfirst.svg'
+import mpthird from '../mpthird.svg'
+import mplast from '../mplast.svg'
+import mbfirst from '../mbfirst.svg'
+import mbsecond from '../mbsecond.svg'
+import mbthird from '../mbthird.svg'
+import mblast from '../mblast.svg'
 export const svgCodes = [
   {
     designs: butera,
@@ -120,10 +198,16 @@ export const svgCodes = [
     logo: buteralogo,
     // one: bfirst,
     two: bsecond,
-    three:bthird,
+    three: bthird,
     four: bfour,
     // five: bfive,
     numberOfImages: 3,
+    eleven: mbuterafirst,
+    twelve: mbbutera,
+    thirteen: mbutera1,
+    fourteen: mbuteralong,
+    fifteen: mblaptop,
+    numberOfImages1: 5,
   },
   {
     designs: carrentals,
@@ -142,8 +226,12 @@ export const svgCodes = [
     logo: carrentalslogo,
     one: carrfirst,
     // two: carrsecond,
-    three:carrthird,
+    three: carrthird,
     numberOfImages: 2,
+    eleven: mcarfirst,
+    twelve: mcarsecond,
+    thirteen: mcthird,
+    numberOfImages1: 3,
   },
   {
     designs: chy,
@@ -164,6 +252,11 @@ export const svgCodes = [
     two: bellasecond,
     // three: bellathird,
     numberOfImages: 2,
+    eleven: mbfirst,
+    twelve: mbsecond,
+    thirteen: mbthird,
+    fourteen: mblast,
+    numberOfImages1: 4,
   },
   {
     designs: majesticfx,
@@ -190,6 +283,22 @@ export const svgCodes = [
     eight: mletter,
     nine: house,
     numberOfImages: 9,
+    eleven: mmajestic,
+    twelve: msleek,
+    thirteen: mdouble,
+    fourteen: myellow,
+    fifteen: mtripple,
+    sixteen: mphone,
+    seventeen: menvelope,
+    eighteen: mcard,
+    nineteen: mtee,
+    twenty: mjacket,
+    twentyone: mcup,
+    twentytwo: mfolder,
+    twentythree: mforex,
+    twentyfour: myyellow,
+    twentyfive: mdark,
+    numberOfImages1: 15,
   },
 ];
 
@@ -197,7 +306,7 @@ export const worksPages = [
   {
     id: 1,
     pathname: "chiro",
-    brand: chiroI,
+    brand: chiro,
     title: "Chiro Branding",
     paragraph:
       "The core objective was to encapsulate the essence of Chiro Group in a branding design that not only represents their ethos but also stands out in a competitive market. Given the ever-evolving landscape of design trends, our challenge was to craft a timeless brand image for Chiro, while integrating top SEO keywords to enhance digital presence.",
@@ -218,7 +327,21 @@ export const worksPages = [
     eight: brand,
     nine: letter,
     ten: street,
+    eleven: mchiro,
+    twelve: mcapsule,
+    thirteen: menv,
+    fourteen: mthumb,
+    fifteen: mmed,
+    sixteen: mbag,
+    seventeen: mcircle,
+    eighteen: mround,
+    nineteen: mpurple,
+    twenty: mletter1,
+    twentyone: crchiro,
+    twentytwo: mflag,
+    twentythree: mpost,
     numberOfImages: 10,
+    numberOfImages1: 13,
   },
 
   {
@@ -245,6 +368,22 @@ export const worksPages = [
     eight: mletter,
     nine: house,
     numberOfImages: 9,
+    eleven: mmajestic,
+    twelve: msleek,
+    thirteen: mdouble,
+    fourteen: myellow,
+    fifteen: mtripple,
+    sixteen: mphone,
+    seventeen: menvelope,
+    eighteen: mcard,
+    nineteen: mtee,
+    twenty: mjacket,
+    twentyone: mcup,
+    twentytwo: mfolder,
+    twentythree: mforex,
+    twentyfour: myyellow,
+    twentyfive: mdark,
+    numberOfImages1: 15,
   },
   {
     id: 3,
@@ -266,7 +405,13 @@ export const worksPages = [
     four: hyour,
     five: hlaptop,
     numberOfImages: 5,
-      },
+    eleven: mhealth,
+    twelve: mnurse,
+    thirteen: mslant,
+    fourteen: mhlong,
+    fifteen: mhdesktop,
+    numberOfImages1: 5,
+  },
   {
     id: 4,
     pathname: "nairobi",
@@ -283,10 +428,16 @@ export const worksPages = [
     logo: nairobilogo,
     one: nfirst,
     two: nsecond,
-    three:nthird,
+    three: nthird,
     four: nfour,
     five: nlaptop,
     numberOfImages: 5,
+    eleven: mnnairobi,
+    twelve: mnslant,
+    thirteen: mnleft,
+    fourteen: mnlong,
+    fifteen: mnlaptop,
+    numberOfImages1: 5,
   },
   {
     id: 5,
@@ -304,11 +455,18 @@ export const worksPages = [
     logo: gymlogo,
     one: gfirst,
     two: gsecond,
-    three:gthird,
+    three: gthird,
     four: gfour,
     five: gfive,
     six: gsix,
     numberOfImages: 6,
+    eleven: mggym,
+    twelve: mgtriple,
+    thirteen: mgthird,
+    fourteen: mglong,
+    fifteen: mgfour,
+    sixteen: mglaptop,
+    numberOfImages1: 6,
   },
   {
     id: 6,
@@ -326,10 +484,16 @@ export const worksPages = [
     logo: sparklelogo,
     one: sfirst,
     two: ssecond,
-    three:sthird,
+    three: sthird,
     four: sfour,
     five: sfive,
     numberOfImages: 5,
+    eleven: msparkle,
+    twelve: msparkle2,
+    thirteen: msparkle3,
+    fourteen: mslong,
+    fifteen: mslaptop,
+    numberOfImages1: 5,
   },
   {
     id: 7,
@@ -347,10 +511,16 @@ export const worksPages = [
     logo: lokilogo,
     one: lfirst,
     two: lsecond,
-    three:lthird,
+    three: lthird,
     four: lfour,
     five: lfive,
     numberOfImages: 5,
+    eleven: mloki,
+    twelve: mloki2,
+    thirteen: mloki3,
+    fourteen: mllong,
+    fifteen: mllaptop,
+    numberOfImages1: 5,
   },
   {
     id: 8,
@@ -368,10 +538,16 @@ export const worksPages = [
     logo: buteralogo,
     // one: bfirst,
     two: bsecond,
-    three:bthird,
+    three: bthird,
     four: bfour,
     // five: bfive,
     numberOfImages: 3,
+    eleven: mbuterafirst,
+    twelve: mbbutera,
+    thirteen: mbutera1,
+    fourteen: mbuteralong,
+    fifteen: mblaptop,
+    numberOfImages1: 5,
   },
   {
     id: 9,
@@ -389,8 +565,12 @@ export const worksPages = [
     logo: carrentalslogo,
     one: carrfirst,
     // two: carrsecond,
-    three:carrthird,
+    three: carrthird,
     numberOfImages: 2,
+    eleven: mcarfirst,
+    twelve: mcarsecond,
+    thirteen: mcthird,
+    numberOfImages1: 3,
   },
   {
     id: 10,
@@ -408,8 +588,12 @@ export const worksPages = [
     logo: dentallogo,
     one: dfirst,
     two: dsecond,
-    three:dthird,
+    three: dthird,
     numberOfImages: 3,
+    eleven: mdfirst,
+    twelve: mdsecond,
+    thirteen: mdlast,
+    numberOfImages1: 3,
   },
   {
     id: 11,
@@ -427,8 +611,13 @@ export const worksPages = [
     logo: cueballlogo,
     one: cuefirst,
     // two: cuesecond,
-    three:cuethird,
+    three: cuethird,
     numberOfImages: 2,
+    eleven: mcfirst,
+    twelve: mcsecond,
+    thirteen: mcthree,
+    fourteen: mclast,
+    numberOfImages1: 4,
   },
   {
     id: 12,
@@ -445,7 +634,11 @@ export const worksPages = [
     category: "Social Media Ad",
     logo: enstorelogo,
     numberOfImages: 0,
-
+    eleven: mifirst,
+    twelve: misecond,
+    thirteen: mithree,
+    fourteen: milast,
+    numberOfImages1: 4,
   },
   {
     id: 13,
@@ -462,7 +655,11 @@ export const worksPages = [
     category: "Digital Design",
     logo: peexo,
     numberOfImages: 0,
-
+    eleven: mpfirst,
+    twelve: mpsecond,
+    thirteen: mpthird,
+    fourteen: mplast,
+    numberOfImages1: 4,
   },
   {
     id: 14,
@@ -482,6 +679,11 @@ export const worksPages = [
     two: bellasecond,
     // three: bellathird,
     numberOfImages: 2,
+    eleven: mbfirst,
+    twelve: mbsecond,
+    thirteen: mbthird,
+    fourteen: mblast,
+    numberOfImages1: 4,
   },
 ];
 
@@ -521,6 +723,29 @@ export const brands = [
   },
   {
     brandname: peexo,
+  },
+];
+
+export const brands2 = [
+  {
+    brandname: vision,
+    brandname1: perception,
+    brandname2: astravest,
+  },
+  {
+    brandname: wikie,
+    brandname1: jem,
+    brandname2: ferrahub,
+  },
+  {
+    brandname: rj,
+    brandname1: daron,
+    brandname2: optimal,
+  },
+  {
+    brandname: toyota,
+    brandname1: sync,
+    brandname2: peexo,
   },
 ];
 
@@ -614,5 +839,58 @@ export const more = [
   },
   {
     text: "Billboards",
+  },
+];
+
+export const moremobile = [
+  {
+    text: "Websites",
+  },
+  {
+    text: "Slide Decks",
+  },
+  {
+    text: "Signage",
+  },
+  {
+    text: "Infographics",
+  },
+  {
+    text: "Packaging",
+  },
+  {
+    text: "Brand guides",
+  },
+
+  {
+    text: "Motion Graphics",
+  },
+  {
+    text: "Mobile apps",
+  },
+
+  {
+    text: "Wireframes",
+  },
+  {
+    text: "Brochures",
+  },
+
+  {
+    text: "Email graphics",
+  },
+  {
+    text: "Pitch decks",
+  },
+
+  {
+    text: "Blog graphics",
+  },
+
+  {
+    text: "Billboards",
+  },
+  {
+    text: "Social media graphics",
   },
 ];

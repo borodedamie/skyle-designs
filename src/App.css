@@ -1,21 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @font-face {
   font-family: "AtypDisplay";
   src: url("/fonts/Atyp/Atyp/AtypDisplay-Semibold.ttf") format("truetype");
 }
 
-@font-face {
-  font-family: "Inter";
-  src: url("/fonts/Inter-Light.ttf") format("truetype");
-}
+
+
 
 @font-face {
   font-family: "AtypMedium";
   src: url("/fonts/Atyp/Atyp/AtypText-Bold.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Poppins";
-  src: url("/fonts/Poppins/Poppins-Bold.ttf") format("truetype");
 }
 
 @font-face {

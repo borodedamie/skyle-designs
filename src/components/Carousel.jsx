@@ -8,7 +8,7 @@ import "../css/glide.theme.css";
 const Carousel = () => {
   useEffect(() => {
     new Glide(".glide", {
-      type: "carousel", 
+      type: "carousel",
       perView: 4,
       breakpoints: {
         420: {
@@ -31,34 +31,30 @@ const Carousel = () => {
 
   return (
     <div>
-      <div className="glide" style={{ backgroundColor: '#0C0C0C' }}>
+      <div className="glide" style={{ backgroundColor: "#0C0C0C" }}>
         <div className="glide__track" data-glide-el="track">
-          <div className="glide__slides">
+          <div className="glide__slides h-[310px] md:h-[498px]  ">
             {carousel.map((carouself, index) => {
               return (
-                <div className="glide__slide " >
-                  <div className="h-fit md:h-[45rem] flex items-center justify-center">
-                  
-                  <img
-                  key={index}
-                  className=""
-                    src={carouself.carousel1}
-                    alt={`Slide ${index + 1}`}
-                  />
-                </div>
+                <div key={index} className="glide__slide ">
+                  <div className="flex items-center justify-center">
+                    <img
+                      className=""
+                      src={carouself.carousel1}
+                      alt={`Slide ${index + 1}`}
+                    />
+                  </div>
                 </div>
               );
             })}
-            </div>
           </div>
         </div>
       </div>
+    </div>
   );
 };
 
 export default Carousel;
-
-
 
 // import React, { useEffect } from "react";
 // import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
@@ -75,7 +71,7 @@ export default Carousel;
 // const Carousel = () => {
 //   // useEffect(() => {
 //   //   new Glide(".glide", {
-//   //     type: "carousel", 
+//   //     type: "carousel",
 //   //     perView: 4,
 //   //     gap: 0,
 //   //   //   autoplay: 3000,
