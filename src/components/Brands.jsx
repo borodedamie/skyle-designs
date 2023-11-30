@@ -5,9 +5,6 @@ import Glide from "@glidejs/glide";
 import "../css/glide.core.css";
 import { ReactSVG } from "react-svg";
 import "../css/glide.theme.css";
-import arrowleft from "../assets/arrowleft.svg";
-import arrowright from "../assets/arrowright.svg";
-
 const Brands = () => {
   const useScreenWidth = () => {
     const [width, setWidth] = useState(window.innerWidth);
